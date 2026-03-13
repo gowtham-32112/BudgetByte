@@ -1,5 +1,5 @@
 import { jsPDF } from 'jspdf';
-import 'jspdf-autotable';
+import autoTable from 'jspdf-autotable';
 import { format } from 'date-fns';
 
 export const exportToCSV = (expenses, activeCurrencyCode) => {
@@ -53,7 +53,7 @@ export const exportToPDF = (expenses, activeCurrencyCode, totalSpent) => {
         `${exp.amount.toFixed(2)}`
     ]);
 
-    doc.autoTable({
+    autoTable(doc, {
         startY: 50,
         head: [['Date', 'Category', 'Description', `Amount (${activeCurrencyCode})`]],
         body: tableData,
