@@ -1,5 +1,5 @@
 # BudgetByte
-![BudgetByte Preview](https://budget-byte.vercel.app/)
+[BudgetByte Preview](https://budget-byte.vercel.app/)
 
 **BudgetByte** is a beautiful, modern financial tracking dashboard designed specifically for university students. It simplifies tracking micro-expenses across different currencies, provides powerful visual insights into categorical spending, and makes it easy to stick to monthly budgets—all housed in an aesthetically pleasing glassmorphic UI.
 
