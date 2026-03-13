@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-app-bg: #0F0F0F;
+  --color-card-bg: #1A1A1A;
+  --color-border: #333333;
+  --color-cat-food: #32CD32; /* Lime Green */
+  --color-cat-rent: #7DF9FF; /* Electric Blue/Cyan */
+  --color-cat-books: #FFD700; /* Bright Yellow */
+  --color-cat-fun: #FF1493; /* Neon Pink */
+}
+
+@layer base {
+  body {
+    background-color: var(--color-app-bg);
+    color: white;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+.glass {
+  background: rgba(26, 26, 26, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.custom-shadow {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
