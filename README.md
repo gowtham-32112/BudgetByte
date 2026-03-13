@@ -1,11 +1,11 @@
-# 🎓 BudgetByte
+# BudgetByte
 ![BudgetByte Preview](public/preview.png)
 
 **BudgetByte** is a beautiful, modern financial tracking dashboard designed specifically for university students. It simplifies tracking micro-expenses across different currencies, provides powerful visual insights into categorical spending, and makes it easy to stick to monthly budgets—all housed in an aesthetically pleasing glassmorphic UI.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 *   **Multi-Currency Tracking**: Tailored for international students. Log expenses in your 'Campus Currency' and instantly see the real-time equivalent in your 'Home Currency' using the USD-anchored cross-rate engine powered by ExchangeRate-API.
 *   **Visual Dashboards**: See exactly where your money goes with interactive Donut Charts, Temporal Spending Bar Charts (Weekly & Monthly), and a GitHub-style Activity Heatmap.
@@ -17,7 +17,7 @@
 
 ---
 
-## 📦 Getting Started (Local Development)
+## Getting Started (Local Development)
 
 ### Prerequisites
 *   Node.js (v18 or higher recommended)
@@ -55,7 +55,7 @@ Open `http://localhost:5173` in your browser. Live reloading is enabled automati
 
 ---
 
-## 🛠️ Built With
+## Built With
 *   **React + Vite**: Fast, modern frontend architecture.
 *   **Tailwind CSS**: Utility-first atomic styling, responsible for the glassmorphic aesthetics.
 *   **Framer Motion**: Smooth entry, exit, and hover animations.
@@ -66,11 +66,7 @@ Open `http://localhost:5173` in your browser. Live reloading is enabled automati
 
 ---
 
-## 📜 Deployment Setup
-
-Ready to launch BudgetByte? See the comprehensive `DEPLOYMENT_GUIDE.md` located in the root directory for step-by-step instructions on setting secure Firestore Rules and uploading to Vercel/Netlify for free.
-
-## 🤝 Contributing
+## Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
 
 ---
