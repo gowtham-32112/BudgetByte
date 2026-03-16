@@ -19,7 +19,7 @@ const ContactSection = () => {
         e.preventDefault();
         
         // This is the 100% free method using the user's native email client
-        const email = 'support@budgetbyte.com';
+        const email = 'ratchagowthamkumar@gmail.com';
         const subject = encodeURIComponent(`${formData.subject} - from ${formData.name}`);
         const body = encodeURIComponent(formData.message);
         

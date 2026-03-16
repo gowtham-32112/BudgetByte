@@ -30,7 +30,7 @@ const Footer = () => {
                 <div>
                     <h3 className="text-white font-semibold mb-4">Connect</h3>
                     <ul className="flex flex-col gap-3">
-                        <li><a href="https://github.com" target="_blank" rel="noreferrer" className="text-white/40 hover:text-white transition-colors text-sm">GitHub Repository</a></li>
+                        <li><a href="https://github.com/gowtham-32112/BudgetByte" target="_blank" rel="noreferrer" className="text-white/40 hover:text-white transition-colors text-sm">GitHub Repository</a></li>
 
                     </ul>
                 </div>
